@@ -85,7 +85,7 @@ heroku login
 ```
 Then we are going to new windows browser for login to Heroku application.
 
-### Substep 3: Creating a heroku applicationx
+### Substep 3: Creating a heroku application in [heroku](https://dashboard.heroku.com/apps) 
 ### Substep 4: Creating a file Procfile for Heroku
 
 Add new line to file
