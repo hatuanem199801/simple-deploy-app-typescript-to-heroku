@@ -1,7 +1,9 @@
 import express from 'express';
 const app = express()
-const port : string|number= process.env.PORT || 5000;
-app.use("*",(req, res) =>{res.send("<h1>Welcome to your server!</h1>")})
+const PORT : string|number = process.env.PORT || 5000;
 
-//create a server object:
-app.listen(port,() => console.log(`hosting @${port}`));
+app.use("*",(req, res) =>{
+    res.send("<h1>Welcome to your simple server! Awesome right</h1>");
+});
+
+app.listen(PORT,() => console.log(`hosting @${PORT}`));
